@@ -1,0 +1,16 @@
+{
+"companyName": "DefaultCompany",
+"productName": "Game Jam 2019",
+"productVersion": "0.1",
+"dataUrl": "GGJ 2020 build.data.unityweb",
+"wasmCodeUrl": "GGJ 2020 build.wasm.code.unityweb",
+"wasmFrameworkUrl": "GGJ 2020 build.wasm.framework.unityweb",
+"graphicsAPI": ["WebGL 2.0","WebGL 1.0"],
+"webglContextAttributes": {"preserveDrawingBuffer": false},
+"splashScreenStyle": "Dark",
+"backgroundColor": "#231F20",
+"cacheControl": {"default": "must-revalidate"},
+"developmentBuild": false,
+"multithreading": false,
+"unityVersion": "2019.2.19f1"
+}
