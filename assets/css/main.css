@@ -3421,6 +3421,11 @@ body.is-preload #wrapper.fade-in:before {
   min-height: 100vh;
 }
 
+#intro p {
+  font-style: italic;
+  
+}
+
 #intro input,
 #intro select,
 #intro textarea {
