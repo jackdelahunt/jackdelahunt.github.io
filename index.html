@@ -46,14 +46,23 @@
 
   <h2>Notable projects</h2>
 
-  <h3>Asteroids remake - <a href="https://github.com/jackdelahunt/game-prototypes/releases/tag/game6-v1">Download</a> <a href="https://github.com/jackdelahunt/game-prototypes/tree/main/game6">Repo</a> </h3>
+  <h3>Custom 2D renderer demo - <a href="https://github.com/jackdelahunt/game-prototypes/releases/tag/game7-v1">Download</a> <a href="https://github.com/jackdelahunt/game-prototypes/tree/main/game7">Repo</a> </h3>
   <p>
     <ul>
-        <li>2D game engine in C++ </li>
-        <li>OpenGL, stb libraries, miniaudio and GLFW </li>
+        <li>Handmade 2D game engine in C++</li>
+        <li>OpenGL renderer with multiple render passes</li>
+        <li>First render pass to draw unlit scene with colour and depth information</li>
+        <li>Second render pass to add screen space lighting, both global lighting and point lights</li>
+        <li>Third render pass for post-processing effects, like blur on depth information and vignette</li>
+        <li>Particle effects for falling leaves</li>
+        <li>Animated textures for lamps and smoke, <a href="https://github.com/jackdelahunt/game-prototypes/releases/tag/game7-v1">download</a> and run to see</li>
+        <li>Once loaded textures are packed into an atlas before being sent to GPU</li>
+        <li>Ambient sound</li>
+        <li>I am not an artist so the assets are sourced from <a href="https://brullov.itch.io/oak-woods">here</a>, I did some tweaking like added animations for lamps and expanding the animation on the shop</li>
     </ul>
   </p>
-  <img src="images/game6.png" alt="Game 6" width="1000" height="700">
+  <img src="images/game7.png" alt="Game 7" width="800" height="500">
+  <img src="images/game7-passes.png" alt="Game 7 render passes" width="300" height="500">
 
   <h3>Arcade dungeon crawler - <a href="https://github.com/jackdelahunt/game-prototypes/releases/tag/game5-v1">Download</a> <a href="https://github.com/jackdelahunt/game-prototypes/tree/main/game5">Repo</a> </h3>
   <p>
