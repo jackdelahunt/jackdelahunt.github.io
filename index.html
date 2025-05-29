@@ -46,6 +46,24 @@
 
   <h2>Notable projects</h2>
 
+  <h3>2D dynamic lighting demo - <a href="https://github.com/jackdelahunt/game-prototypes/releases/tag/game8-v1">Download</a> <a href="https://github.com/jackdelahunt/game-prototypes/tree/main/game8">Repo</a> </h3>
+  <p>
+    <ul>
+        <li>Handmade 2D game engine in C++</li>
+        <li>OpenGL renderer with three render passes</li>
+        <li>First render pass to draw unlit scene, colour, depth, normal and water buffers are filled from this pass</li>
+        <li>Second render pass to add screen space lighting, sampling from the normal buffer gives the lighting a more 3D look</li>
+        <li>Third render pass is for water reflection, lit scene is sampled and reflections are filled in based on fragment position</li>
+        <li>Animated textures for the bat, <a href="https://github.com/jackdelahunt/game-prototypes/releases/tag/game8-v1">download</a> and run to see</li>
+        <li>Once loaded, albedo and normal textures are packed into an atlas before being sent to GPU</li>
+        <li>I am not an artist so the assets are sourced from <a href="https://szadiart.itch.io/pixel-fantasy-caves">here</a>, however all normal maps were added by hand</li>
+    </ul>
+  </p>
+  <img src="images/lighting.gif" alt="Game 8 lighting" width="300" height="500">
+  <img src="images/game8.png" alt="Game 8" width="800" height="500">
+  <img src="images/game8-water.png" alt="Game 8 water" width="800" height="500">
+  <img src="images/game8-editor.png" alt="Game 8 editor" width="700" height="500">
+
   <h3>Custom 2D renderer demo - <a href="https://github.com/jackdelahunt/game-prototypes/releases/tag/game7-v1">Download</a> <a href="https://github.com/jackdelahunt/game-prototypes/tree/main/game7">Repo</a> </h3>
   <p>
     <ul>
